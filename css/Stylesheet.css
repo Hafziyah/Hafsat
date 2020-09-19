@@ -1,0 +1,122 @@
+/******BASE STYLES******/
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Handlee', cursive;
+    background:#CCCBBF;
+   }
+
+span{
+    font-family:'Dancing Script', cursive;
+    color:blue;
+    text-decoration:underline;
+    
+}
+
+/******Background photo from leonorgferreira from free images******/
+header .full-width{
+    background:url(../img/rocky-riverside.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+/******GRID******/
+.full-width{
+    width: 1250px;
+    margin: 0 auto;
+    overflow: auto;
+    height:auto;
+    padding: 0 20px 0 
+}
+
+.half-width{
+    width: 540px;
+    float: right;
+    padding-top: 0px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-right-width: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+
+}
+
+.third-width{
+    width: 300px;
+    float: left;
+}
+
+#about-me{
+    border:#ffffff;
+    
+}
+
+/******BODY******/
+
+header h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;  
+    text-align: center;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    background:#CCCBBF;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+nav{
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+    color: #000000;
+    float: right;   
+    background: #ffffff;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/*******MAIN******/
+
+#portfolio h2, #in-touch h2, #about-me h2, #contact{
+    text-align:center;
+    font-family:'Open Sans Condensed', sans-serif;
+}
+
+#portfolio h3{
+    text-align: center;
+}
+
+#portfolio p{
+    font-size: 20px;
+}
+
+#jubilee-austen img, #rogue-pickings img{
+    border: 2px solid #000000;
+}
+
+
+/******Image by Anatoli Styf from free images******/
+
+#about-me{
+    background:url('../img/butterfly.jpg');
+    font-family: 'Handlee', cursive;
+}
+
+#about-me p{
+    font-size:24px;
+}
+
+/******FOOTER******/
+#contact{
+    font-size:25px;
+    font-family:'Great Vibes', cursive;
+    
+}
